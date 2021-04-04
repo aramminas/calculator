@@ -1,0 +1,17 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "babel-node ./modules/main.js",
+    "build": "mkdir dist && babel modules -s -d dist"
+  },
+  "keywords": [],
+  "author": "A. M.",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
